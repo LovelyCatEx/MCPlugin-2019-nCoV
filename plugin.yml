@@ -1,0 +1,21 @@
+name: 2019-nCoVInfo
+main: cn.lovelycatex.ncov.nCovMain
+version: 1.0
+author: LovelyCat
+
+commands:
+  ncov:
+    usage: /nocv
+    description: 获取最新疫情信息
+    permission: ncov.use
+
+permissions:
+  ncov.use:
+    description: /ncov 使用权
+    default: true
+  ncov.reload:
+    description: 重载插件
+    default: op
+  ncov.update:
+    description: 更新数据
+    default: op

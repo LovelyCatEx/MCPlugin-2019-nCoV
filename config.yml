@@ -1,0 +1,5 @@
+#API地址 若失效可以自行前往天行数据申请接口
+api: "http://api.tianapi.com/txapi/ncov/index?key=3218435e78f4d1873ab412313d6d77c5"
+#是否开放查询
+enable: true
+prefix: "&a疫情查询 &b>>&r "
